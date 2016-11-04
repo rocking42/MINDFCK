@@ -1,0 +1,98 @@
+/** {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}*/
+table {
+  background: black;
+  border-radius: 10px;
+  display: inline-block;
+  position: absolute;
+}
+div.example {
+  font-size: 5em; /* This controls the size. */
+ display: inline-block;
+ width: 0.4em;
+ height: 0.4em;
+ border: 0.1em solid red;
+ position: relative;
+ border-radius: 0.35em;
+}
+
+.tic {
+  margin-left: 1px;
+  margin-right: 1px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.main {
+  position: relative;
+  left: 30%;
+  bottom: 76px;
+}
+
+
+.tableOne {
+  top: 115px;
+}
+
+.tableTwo {
+  top: 114px;
+  left: 210px;
+}
+
+.tableThree {
+  top: 114px;
+  left: 420px;
+}
+
+.tableFour {
+  top: 318px;
+}
+
+.tableFive {
+  top: 318px;
+  left: 210px;
+}
+
+.tableSix {
+  top: 318px;
+  left: 420px;
+}
+
+.tableSeven {
+  top: 518px;
+}
+
+.tableEight {
+  top: 518px;
+  left: 210px;
+
+}
+
+.tableNine {
+  top: 518px;
+  left: 420px;
+}
+
+
+/*
+#cross {
+  background: red;
+  height: 100px;
+  position: relative;
+  width: 20px;
+}
+#cross:after {
+  background: red;
+  content: "";
+  height: 20px;
+  left: -60px;
+  position: absolute;
+  top: 40px;
+  width: 100px;
+}*/
