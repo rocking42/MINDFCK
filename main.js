@@ -1,30 +1,12 @@
 $(document).ready(function() {
-  function clickBill() {
-    $(this).css("height", "40px");
-  }
-  function billWasMousedOver() {
-    $(this).fadeOut("slow");
-  }
-  $("img").on("click", clickBill);
-  $("img").on("mouseover", billWasMousedOver);
-  $(".tac1").css({
+
+  $(".tic").css({
     height: "60px",
     background: "red",
     width: "50px",
     display: "inline-block"
   });
-  $(".tac2").css({
-    height: "60px",
-    background: "red",
-    width: "50px",
-    display: "inline-block"
-  });
-  $(".tac3").css({
-    height: "60px",
-    background: "red",
-    width: "50px",
-    display: "inline-block"
-  });
+
   var board = {
     1: 1,
     2: 2,
@@ -125,11 +107,8 @@ $(document).ready(function() {
       player1 = true;
       myArr.push("1");
       board[$(this).attr("id")] = "X";
-        winner();
+      winner();
         console.log(board);
     }
   });
-
-
-
 });
