@@ -1,21 +1,40 @@
+html {
+  background: rgb(55,47,48);
+  color: white;
+}
+
 table {
-  background: black;
+
   border-radius: 10px;
   display: inline-block;
   position: absolute;
 }
 
-.count {
-  position: absolute;
-  top: 55px;
-  height: 10px;
-}
-
 .tic {
+  height: 60px;
+  background: rgb(93, 197, 191);
+  width: 50px;
+  display: inline-block;
   margin-left: 1px;
   margin-right: 1px;
   padding-left: 10px;
   border-radius: 10px;
+  transition: 0.5s;
+}
+
+.score {
+  position: relative;
+
+}
+
+.btn {
+  z-index: 100000;
+}
+
+.count {
+  position: absolute;
+  top: 70px;
+  height: 10px;
 }
 
 h1 {
@@ -28,6 +47,8 @@ h1 {
   bottom: 78px;
   width: 615px;
   height: 715px;
+  z-index: 1;
+  top: 1px;
 }
 
 
